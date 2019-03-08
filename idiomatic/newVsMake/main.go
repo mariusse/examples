@@ -17,6 +17,6 @@ func newStruct(one, two string) *mystruct {
 	}
 }
 
-func makeStruct(one, two string) mystruct {
-	return mystruct
+func makeString(one, two string) string {
+	return one + two
 }
